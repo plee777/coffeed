@@ -1,0 +1,37 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Coffeed</title>
+	
+		<link rel="stylesheet" href="{% static "css/style.css" %}">
+	</head>
+
+	<body>
+
+		<div class="container">
+			<!-- START HERE --> 
+
+			<h1>Hi, this is Dudon and Paul.</h1>
+			<h2>We help you find oil and gas jobs.</h2>
+
+			<p>In a world where there are not enough petroleum jobs out there.
+				we focus on connecting you with the right people.</p>
+
+			<p>Email us now for a PDF or just to chat <a mailto:"hello@getcoffeed.com">hello@getcoffeed.com</a></p>
+
+			<a href="https://twitter.com/getcoffeed" target="_blank">
+				<img src=" {% static "images/twitter.png" %}" alt="Twitter">
+			</a>
+
+			<a href="https://www.facebook.com/getcoffeed" target="_blank">
+				<img src=" {% static "images/facebook.png" %}" alt="Facebook">
+			</a>
+			
+			<!-- END HERE --> 
+		</div><!-- .container --> 
+
+	</body>
+</html>
